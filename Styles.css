@@ -1,0 +1,48 @@
+body {
+background-color: rgb(196, 229, 224);
+    color: rgb(77, 74, 140);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px black;
+}
+img{
+    max-width: 50%;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: palevioletred;
+    
+
+}
+
+a{
+    color : rgb(134, 68, 214);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(222, 19, 144);
+    text-decoration: underline;
+}
+
+table{
+    width: 60%;
+    background-color: rgb(208, 116, 135);
+    margin: 20px;
+}
+th, td{
+    border: 2px solid black;
+    padding: 20px 5px /* TRBL */;
+
+    
+}
+
+tr:nth-child(even){
+    background-color: rgb(234, 196, 196);
+}
+tr:hover{
+    background-color: rgb(200, 232, 156);
+}
